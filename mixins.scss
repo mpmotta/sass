@@ -1,0 +1,18 @@
+
+
+@mixin round-corner {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+
+$normal: #630;
+$hover: #900;
+$visited: #300;  
+
+@mixin link-colors {
+    color: $normal;
+    &:hover {color: $hover;}
+    &:visited {color: $visited;}
+}

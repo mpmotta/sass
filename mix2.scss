@@ -1,0 +1,10 @@
+@import "mixins.scss";
+
+.caixa {
+        background-color: #0c0;
+        border: 2px solid #030;
+        @include round-corner;
+}
+a {
+    @include link-colors;
+}

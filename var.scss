@@ -1,0 +1,16 @@
+$cor-obj: #090;
+$largura-obj: 400px;
+$borda: solid 1px darken($cor-obj, 10%);
+$fundo: #ccc;
+$cor-fonte: #222;
+
+body {
+    background-color: $fundo;
+    color: $cor-fonte;
+}
+
+.box {
+    background-color: $cor-obj;
+    border: $borda;
+    width: $largura-obj;
+}
